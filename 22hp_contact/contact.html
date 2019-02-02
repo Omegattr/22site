@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>CONTACT PAGE</title>
+  </head>
+  <body>
+  
+    <p>
+      <h1>お問い合わせ</h1>
+    </p>
+    <!-- 問合せフォーム ここから -->
+    <form action="./confirm.php" method="post">
+           
+           <!-- お問合せ項目はこちら。confirm.phpの も合わせて変更してください。 -->
+           <p>お名前(必須)：<br>
+           <input type="text" name="user"></p>
+           <p>メールアドレス(必須)：<br>
+           <input type="text" name="email"></p>
+           <p>お問い合わせ内容：<br>
+           <textarea name="comment" clos="50"  rows="5"></textarea></p>
+           <p>
+           <input type="submit" name="send" value="送信"></p> <!-- 送信ボタン -->
+    </form>
+  </body>
+</html>
